@@ -1,0 +1,19 @@
+checkpointer:
+  type: SqliteSaver
+  config:
+    path: ./checkpoints/checkpoint.db
+    check_same_thread: false
+    timeout: 10
+    detect_types: 0
+    isolation_level: null
+
+# checkpointer:
+#   type: InMemorySaver
+#   config: {}
+
+# checkpointer:
+#   type: null
+
+#checkpointer: null
+
+#si puo anche non specificare il checkpointer o metterlo a null

@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T6;Pick the smallest object then place it on the floor;C2;HR;PL;S35;SEM;ABS;15

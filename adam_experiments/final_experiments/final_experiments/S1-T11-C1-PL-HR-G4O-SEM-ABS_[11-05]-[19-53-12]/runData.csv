@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S1;T11;Pick object tagged as 4 and place it near the indoor plant, then pick the glass and place it next to the plate;C1;HR;PL;G4O;SEM;ABS;15

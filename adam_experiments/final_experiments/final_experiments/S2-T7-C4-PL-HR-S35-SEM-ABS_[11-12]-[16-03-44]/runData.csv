@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T7;Pick the flashlight and place it on the floor in a corner of the room;C4;HR;PL;S35;SEM;ABS;15

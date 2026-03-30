@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.WebApi.Client</id>
+    <version>6.0.0</version>
+    <title>Microsoft ASP.NET Web API 2.2 Client Libraries</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft,aspnet</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">NET_Library_EULA_ENU.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>NET.icon.png</icon>
+    <projectUrl>https://www.asp.net/web-api</projectUrl>
+    <description>This package adds support for formatting and content negotiation to System.Net.Http. It includes support for JSON, XML, and form URL encoded data.</description>
+    <summary>This package adds support for formatting and content negotiation to System.Net.Http.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Microsoft AspNet WebApi AspNetWebApi HttpClient</tags>
+    <repository type="git" url="https://github.com/aspnet/AspNetWebStack" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Newtonsoft.Json.Bson" version="1.0.2" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" />
+        <dependency id="System.Memory" version="4.5.5" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="Newtonsoft.Json.Bson" version="1.0.2" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" />
+        <dependency id="Microsoft.Net.Http" version="2.2.22" />
+        <dependency id="System.Collections.Specialized" version="4.3.0" />
+        <dependency id="System.ComponentModel.EventBasedAsync" version="4.3.0" />
+        <dependency id="System.Data.Common" version="4.3.0" />
+        <dependency id="System.Diagnostics.Contracts" version="4.3.0" />
+        <dependency id="System.Memory" version="4.5.5" />
+        <dependency id="System.Runtime.Serialization.Json" version="4.3.0" />
+        <dependency id="System.Runtime.Serialization.Xml" version="4.3.0" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json.Bson" version="1.0.2" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" />
+        <dependency id="System.Memory" version="4.5.5" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.4" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

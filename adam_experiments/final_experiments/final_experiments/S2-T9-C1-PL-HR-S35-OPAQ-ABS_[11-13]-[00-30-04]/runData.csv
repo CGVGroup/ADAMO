@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T9;Pick object tagged as 37 then place it next to the plate, then go pick object tagged as 30 and place it next to object tagged as 3;C1;HR;PL;S35;OPAQ;ABS;15

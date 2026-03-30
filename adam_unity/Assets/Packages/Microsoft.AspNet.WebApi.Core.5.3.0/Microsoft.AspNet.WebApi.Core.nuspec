@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNet.WebApi.Core</id>
+    <version>5.3.0</version>
+    <title>Microsoft ASP.NET Web API 2.2 Core Libraries</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft,aspnet</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">NET_Library_EULA_ENU.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>NET.icon.png</icon>
+    <projectUrl>https://www.asp.net/web-api</projectUrl>
+    <description>This package contains the core runtime assemblies for ASP.NET Web API. This package is used by hosts of the ASP.NET Web API runtime. To host a Web API in IIS use the Microsoft.AspNet.WebApi.WebHost package. To host a Web API in your own process use the Microsoft.AspNet.WebApi.SelfHost package.</description>
+    <summary>This package contains the core runtime assemblies for ASP.NET Web API.</summary>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language>en-US</language>
+    <tags>Microsoft AspNet WebApi AspNetWebApi</tags>
+    <repository type="git" url="https://github.com/aspnet/AspNetWebStack" />
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="6.0.0" />
+    </dependencies>
+  </metadata>
+</package>

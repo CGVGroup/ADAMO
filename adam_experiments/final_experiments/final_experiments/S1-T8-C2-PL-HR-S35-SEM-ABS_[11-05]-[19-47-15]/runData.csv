@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S1;T8;Pick the glass and the plate then put them on the floor;C2;HR;PL;S35;SEM;ABS;15

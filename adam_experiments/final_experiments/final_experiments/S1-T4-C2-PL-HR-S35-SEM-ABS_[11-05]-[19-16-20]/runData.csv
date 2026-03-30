@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S1;T4;Pick the plate and place it on the floor;C2;HR;PL;S35;SEM;ABS;15

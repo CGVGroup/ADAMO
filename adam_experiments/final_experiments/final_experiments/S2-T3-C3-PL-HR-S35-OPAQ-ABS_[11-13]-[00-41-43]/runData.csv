@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T3;Pick the blue circular object;C3;HR;PL;S35;OPAQ;ABS;15

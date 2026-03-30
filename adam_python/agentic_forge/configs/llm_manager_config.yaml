@@ -1,0 +1,195 @@
+providers:
+    default_ollama:
+      type: ollama
+      config:
+        base_url: http://localhost:11434
+        keep_alive: "2m"
+        models:
+          default_embedding:
+            type: embedding
+            config:
+              name: mxbai-embed-large:latest
+
+
+          default_chat:
+            type: chat
+            config:
+              name: gemma3:1b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+              
+          summ_model:
+            type: chat
+            config:
+              name: gemma3:1b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          vision_chat:
+            type: chat
+            config:
+              name: gemma3:12b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+    default_openai:
+      type: openai
+      config:
+        api_key_file: ./agentic_forge/configs/providers_api_key.yaml
+        models:
+          default_embedding:
+            type: embedding
+            config:
+              name: text-embedding-ada-002
+
+          default_chat:
+            type: chat
+            config:
+              name: gpt-4
+              max_tokens: 4096
+              temperature: 0.0
+              support_tools_parallel: True
+              support_tool_choice: True
+
+          vision_tool_chat:
+            type: chat
+            config:
+              name: gpt-4.1-mini #gpt-5 #gpt-4.1-mini # #
+              max_tokens: 4096
+              temperature: 0.0
+              support_tools_parallel: True
+              support_tool_choice: True
+              top_p: 0.0
+
+    default_openrouter:
+      type: openrouter
+      config:
+        base_url: https://openrouter.ai/api/v1
+        api_key_file:  ./agentic_forge/configs/providers_api_key.yaml
+        site_url: "https://your-domain.example"    # opzionale, utile per rate limit più generosi
+        app_name: "PLACEHOLDER"                     # opzionale
+        models:
+          vision_tool_chat_claude:
+            type: chat
+            config:
+              context: 200000
+              router: anthropic
+              name: "anthropic/claude-3.5-sonnet"  # nome modello OpenRouter
+              max_tokens: 4096
+              temperature: 0.0
+              support_tools_parallel: false
+              support_tool_choice: false
+
+              top_p: 0.0
+          
+          vision_tool_chat_gpt:
+            type: chat
+            config:
+              name: gpt-4.1-mini #gpt-5 #gpt-4.1-mini # #
+              max_tokens: 4096
+              temperature: 0.0
+              support_tools_parallel: True
+              support_tool_choice: True
+              top_p: 0.0
+
+
+    hpc_ollama:
+      type: ollama
+      config:
+        base_url: http://localhost:11435
+        keep_alive: "10m"
+        models:
+          default_embedding:
+            type: embedding
+            config:
+              name: mxbai-embed-large:latest
+
+          default_chat:
+            type: chat
+            config:
+              name: gemma3:27b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          fast_chat:
+            type: chat
+            config:
+              name: gemma3:12b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          tool_chat:
+            type: chat
+            config:
+              name: qwen3:32b-fp16 #gpt-oss:120b #gpt-oss:latest
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          vision_chat:
+            type: chat
+            config:
+              name: gemma3:27b #mistral-small3.1:latest #mistral-small3.1:24b-instruct-2503-fp16 #mistral-small3.1:latest #gemma3:27b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          fast_vision_chat:
+            type: chat
+            config:
+              name: gemma3:12b
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          vision_tool_chat:
+            type: chat
+            config:
+              name: mistral-small3.2:latest #llama4:latest #mistral-small3.2:latest ##granite3.2-vision:latest #mistral-small3.2:latest # llama4:latest # #llama4:latest #mistral-small3.2:latest #granite3.2-vision:latest
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+
+          big_vision_tool_chat:
+            type: chat
+            config:
+              name: llama4:latest
+              max_tokens: 4000
+              temperature: 0.0
+              top_p: 0.0
+              support_tools_parallel: false
+              support_tools_parallel: false
+
+

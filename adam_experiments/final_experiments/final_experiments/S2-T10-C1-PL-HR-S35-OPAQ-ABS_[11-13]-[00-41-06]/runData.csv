@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T10;Pick the glass and place it next to the plate, then pick the binoculars and place it next to the screwdriver;C1;HR;PL;S35;OPAQ;ABS;15

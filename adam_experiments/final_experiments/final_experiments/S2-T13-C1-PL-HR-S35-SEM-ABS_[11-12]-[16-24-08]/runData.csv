@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T13;Pick the cylindrical can and place it next to the indoor plant, and pick the binoculars and place it next to the screwdriver;C1;HR;PL;S35;SEM;ABS;15

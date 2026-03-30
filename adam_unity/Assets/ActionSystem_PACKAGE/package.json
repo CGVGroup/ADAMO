@@ -1,0 +1,11 @@
+{
+  "name": "it.cgvg.action-system",
+  "version": "1.0.0",
+  "author": "Stefano Calzolari",
+  "displayName": "Action System",
+  "description": "A simple tool to implement humanoid NPC interactions with 3D objects and navigate the 3D environment.",
+  "unity": "6000.2",
+  "dependencies": {
+    "com.unity.animation.rigging": "1.3.0"
+  }
+}

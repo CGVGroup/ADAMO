@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S1;T1;Pick the object tagged as 34;C3;HR;PL;G4O;OPAQ;ABS;15

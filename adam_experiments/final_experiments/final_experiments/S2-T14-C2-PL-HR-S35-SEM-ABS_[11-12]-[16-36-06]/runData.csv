@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T14;Pick all objects with white parts and place them on the floor;C2;HR;PL;S35;SEM;ABS;15

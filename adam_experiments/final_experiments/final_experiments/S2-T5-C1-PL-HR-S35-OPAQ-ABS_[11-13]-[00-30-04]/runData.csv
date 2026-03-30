@@ -1,0 +1,2 @@
+scene;taskId;taskPrompt;solutionChecker;graphicalResolution;graphicalLighting;model;objectIdentifier;coordinatesType;repetitions
+S2;T5;Pick the object tagged as 4 and place it near the indoor plant;C1;HR;PL;S35;OPAQ;ABS;15
