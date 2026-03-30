@@ -797,6 +797,13 @@ For batch execution, disable Use Custom Run and set the CSV path to a valid expe
 In addition to running single tasks from the Unity Editor, A.D.A.M.O. supports fully automated **batch experiments** using a Unity build and the `run_experiments.py` script.  
 This mode is intended for large-scale evaluation, parallel execution, and automatic result aggregation.
 
+<h3>0. Setup</h3>
+Extract the .zip content from GitHub release in Build directory:
+
+```text
+adam_unity/Build/
+```
+
 <h3>1. Benchmark Data Folder and CSV Specification</h3>
 
 Batch runs use a shared benchmark data directory:
