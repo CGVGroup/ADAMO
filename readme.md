@@ -798,7 +798,7 @@ In addition to running single tasks from the Unity Editor, A.D.A.M.O. supports f
 This mode is intended for large-scale evaluation, parallel execution, and automatic result aggregation.
 
 <h3>0. Setup</h3>
-Extract the .zip content from GitHub release in Build directory:
+Extract the .zip content from GitHub release in Build directory (create it if missing):
 
 ```text
 adam_unity/Build/
